@@ -1,0 +1,6 @@
+framework module Pods_SilentKit_Example {
+  umbrella header "Pods-SilentKit_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

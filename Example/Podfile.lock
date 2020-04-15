@@ -1,0 +1,16 @@
+PODS:
+  - SilentKit (0.1.0)
+
+DEPENDENCIES:
+  - SilentKit (from `../`)
+
+EXTERNAL SOURCES:
+  SilentKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SilentKit: 5289e8da5766921a767154b7db3d90a39bebfd1f
+
+PODFILE CHECKSUM: a70aaa3a0723f1ac4b3fc1bd2a43d7fff534dda1
+
+COCOAPODS: 1.9.1
