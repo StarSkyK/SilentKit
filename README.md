@@ -5,12 +5,19 @@
 [![License](https://img.shields.io/cocoapods/l/SilentKit.svg?style=flat)](https://cocoapods.org/pods/SilentKit)
 [![Platform](https://img.shields.io/cocoapods/p/SilentKit.svg?style=flat)](https://cocoapods.org/pods/SilentKit)
 
+## Introduce
+A small and fast kit. It's like an airplane flying in silence. You don't even know it's there.
+### 中文
+一个快速小巧的kit，就像一架高速静默飞行的飞机，快，而且你又感觉不到～
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
-
+only Objective - C
+### 中文
+只能使用 Objective - C
 ## Installation
 
 SilentKit is available through [CocoaPods](https://cocoapods.org). To install
