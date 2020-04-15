@@ -1,11 +1,3 @@
-//
-//  NSDate+Extend.h
-//  CoreCategory
-//
-//  Created by 成林 on 15/4/6.
-//  Copyright (c) 2015年 沐汐. All rights reserved.
-//
-
 #import <Foundation/Foundation.h>
 
 @interface NSDate (Extend)
@@ -22,32 +14,20 @@
  */
 @property (nonatomic,strong,readonly) NSDateComponents *components;
 
-
-
-
 /*
  *  是否是今年
  */
 @property (nonatomic,assign,readonly) BOOL isThisYear;
-
-
-
 
 /*
  *  是否是今天
  */
 @property (nonatomic,assign,readonly) BOOL isToday;
 
-
-
-
 /*
  *  是否是昨天
  */
 @property (nonatomic,assign,readonly) BOOL isYesToday;
-
-
-
 
 /**
  *  两个时间比较

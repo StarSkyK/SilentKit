@@ -1,11 +1,3 @@
-//
-//  NSDate+Extend.m
-//  CoreCategory
-//
-//  Created by 成林 on 15/4/6.
-//  Copyright (c) 2015年 沐汐. All rights reserved.
-//
-
 #import "NSDate+Extend.h"
 
 @interface NSDate ()
@@ -25,9 +17,6 @@
 @implementation NSDate (Extend)
 
 
-
-
-
 /*
  *  时间戳
  */
@@ -39,9 +28,6 @@
     
     return [timeString copy];
 }
-
-
-
 
 
 /*
@@ -57,10 +43,6 @@
 
     return [calendar components:unit fromDate:self];
 }
-
-
-
-
 
 /*
  *  是否是今年
@@ -80,9 +62,6 @@
 }
 
 
-
-
-
 /*
  *  是否是今天
  */
@@ -91,9 +70,6 @@
     //差值为0天
     return [self calWithValue:0];
 }
-
-
-
 
 
 /*
@@ -139,17 +115,6 @@
     
     return date;
 }
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  *  两个时间比较

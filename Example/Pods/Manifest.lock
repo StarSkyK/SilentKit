@@ -1,5 +1,5 @@
 PODS:
-  - SilentKit (0.1.0)
+  - SilentKit (0.3.0)
 
 DEPENDENCIES:
   - SilentKit (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  SilentKit: 5289e8da5766921a767154b7db3d90a39bebfd1f
+  SilentKit: 6a5340d0ed06ad977acd9d0bca26d904373c77ae
 
 PODFILE CHECKSUM: a70aaa3a0723f1ac4b3fc1bd2a43d7fff534dda1
 
