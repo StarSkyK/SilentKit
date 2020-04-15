@@ -22,7 +22,7 @@ pod 'SilentKit'
 
 ## Author
 
-1457877626@qq.com, kailen.ni@51job.com
+kailen, 1457877626@qq.com
 
 ## License
 
