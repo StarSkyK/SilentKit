@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "STBaseTableViewController.h"
 #import "NSDate+Extend.h"
 #import "NSDictionary+CRCParam.h"
 #import "NSDictionary+Extension.h"

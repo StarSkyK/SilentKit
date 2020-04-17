@@ -7,12 +7,28 @@
 //
 
 #import "STAppDelegate.h"
-
+#import "STViewController.h"
 @implementation STAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    
+//    if (@available(iOS 11.0, *)) {
+//        [[UIScrollView appearance] setContentInsetAdjustmentBehavior:UIApplicationBackgroundFetchIntervalNever];
+//        [[UITableView appearance] setEstimatedRowHeight:0.f];
+//        [[UITableView appearance] setEstimatedSectionHeaderHeight:0.f];
+//        [[UITableView appearance] setEstimatedSectionFooterHeight:0.f];
+//    }
+//    
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    STViewController * vc1 = [[STViewController alloc] init];
+    UINavigationController * vc2 = [[UINavigationController alloc] initWithRootViewController:vc1];
+    vc2.view.backgroundColor = UIColor.whiteColor;
+    self.window.rootViewController = vc2;
+    [self.window makeKeyAndVisible];
+    
+    
     return YES;
 }
 

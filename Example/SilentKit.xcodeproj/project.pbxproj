@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		5180C463AC5D369F1179FBCA /* Pods_SilentKit_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 447C2D2FCDAF20304BE17CA3 /* Pods_SilentKit_Tests.framework */; };
+		526016EA2447EF37007F1328 /* BaseCollectionVc.m in Sources */ = {isa = PBXBuildFile; fileRef = 526016E82447EF37007F1328 /* BaseCollectionVc.m */; };
+		526016EE244823E5007F1328 /* STCollectionvVew.m in Sources */ = {isa = PBXBuildFile; fileRef = 526016ED244823E5007F1328 /* STCollectionvVew.m */; };
+		526016F12448258E007F1328 /* STBaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 526016EF2448258E007F1328 /* STBaseTableViewController.m */; };
+		526016F424483D3C007F1328 /* STRefreshFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 526016F324483D3C007F1328 /* STRefreshFooter.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -39,9 +43,17 @@
 /* Begin PBXFileReference section */
 		0CCE53BE9C7B453CF7CFE2AD /* Pods-SilentKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SilentKit_Tests.debug.xcconfig"; path = "Target Support Files/Pods-SilentKit_Tests/Pods-SilentKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		25C91D60083AE193C6F3F494 /* Pods_SilentKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SilentKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2DC0DEFEDFE7CE4A8ED87D2D /* SilentKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SilentKit.podspec; path = ../SilentKit.podspec; sourceTree = "<group>"; };
+		2DC0DEFEDFE7CE4A8ED87D2D /* SilentKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SilentKit.podspec; path = ../SilentKit.podspec; sourceTree = "<group>"; };
 		447C2D2FCDAF20304BE17CA3 /* Pods_SilentKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SilentKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4F2762F6172457A83CE7B823 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		4F2762F6172457A83CE7B823 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		526016E82447EF37007F1328 /* BaseCollectionVc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseCollectionVc.m; sourceTree = "<group>"; };
+		526016E92447EF37007F1328 /* BaseCollectionVc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseCollectionVc.h; sourceTree = "<group>"; };
+		526016EC244823E5007F1328 /* STCollectionvVew.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STCollectionvVew.h; sourceTree = "<group>"; };
+		526016ED244823E5007F1328 /* STCollectionvVew.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STCollectionvVew.m; sourceTree = "<group>"; };
+		526016EF2448258E007F1328 /* STBaseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STBaseTableViewController.m; sourceTree = "<group>"; };
+		526016F02448258E007F1328 /* STBaseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STBaseTableViewController.h; sourceTree = "<group>"; };
+		526016F224483D3C007F1328 /* STRefreshFooter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STRefreshFooter.h; sourceTree = "<group>"; };
+		526016F324483D3C007F1328 /* STRefreshFooter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STRefreshFooter.m; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* SilentKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SilentKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -66,7 +78,7 @@
 		A285DA847C8442BD88ECC870 /* Pods-SilentKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SilentKit_Tests.release.xcconfig"; path = "Target Support Files/Pods-SilentKit_Tests/Pods-SilentKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		A63B44ADE0322176DDD9BFE8 /* Pods-SilentKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SilentKit_Example.debug.xcconfig"; path = "Target Support Files/Pods-SilentKit_Example/Pods-SilentKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		E2EE7DAFE4B03C54D19CE866 /* Pods-SilentKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SilentKit_Example.release.xcconfig"; path = "Target Support Files/Pods-SilentKit_Example/Pods-SilentKit_Example.release.xcconfig"; sourceTree = "<group>"; };
-		ED3D9B165C06B1357F11495E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		ED3D9B165C06B1357F11495E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,8 +115,29 @@
 				0CCE53BE9C7B453CF7CFE2AD /* Pods-SilentKit_Tests.debug.xcconfig */,
 				A285DA847C8442BD88ECC870 /* Pods-SilentKit_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		526016E72447EEE7007F1328 /* BaseKitTest */ = {
+			isa = PBXGroup;
+			children = (
+				526016F02448258E007F1328 /* STBaseTableViewController.h */,
+				526016EF2448258E007F1328 /* STBaseTableViewController.m */,
+				526016E92447EF37007F1328 /* BaseCollectionVc.h */,
+				526016E82447EF37007F1328 /* BaseCollectionVc.m */,
+				526016F224483D3C007F1328 /* STRefreshFooter.h */,
+				526016F324483D3C007F1328 /* STRefreshFooter.m */,
+			);
+			name = BaseKitTest;
+			sourceTree = "<group>";
+		};
+		526016EB244823B6007F1328 /* TestVC */ = {
+			isa = PBXGroup;
+			children = (
+				526016EC244823E5007F1328 /* STCollectionvVew.h */,
+				526016ED244823E5007F1328 /* STCollectionvVew.m */,
+			);
+			name = TestVC;
 			sourceTree = "<group>";
 		};
 		6003F581195388D10070C39A = {
@@ -144,6 +177,8 @@
 		6003F593195388D20070C39A /* Example for SilentKit */ = {
 			isa = PBXGroup;
 			children = (
+				526016EB244823B6007F1328 /* TestVC */,
+				526016E72447EEE7007F1328 /* BaseKitTest */,
 				6003F59C195388D20070C39A /* STAppDelegate.h */,
 				6003F59D195388D20070C39A /* STAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -258,6 +293,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -346,10 +382,14 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-SilentKit_Example/Pods-SilentKit_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
 				"${BUILT_PRODUCTS_DIR}/SilentKit/SilentKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SilentKit.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -365,7 +405,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* STAppDelegate.m in Sources */,
+				526016EA2447EF37007F1328 /* BaseCollectionVc.m in Sources */,
 				6003F5A7195388D20070C39A /* STViewController.m in Sources */,
+				526016EE244823E5007F1328 /* STCollectionvVew.m in Sources */,
+				526016F424483D3C007F1328 /* STRefreshFooter.m in Sources */,
+				526016F12448258E007F1328 /* STBaseTableViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

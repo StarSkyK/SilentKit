@@ -8,6 +8,7 @@
 
 #import "STViewController.h"
 #import <SilentKit.h>
+#import "STCollectionvVew.h"
 @interface STViewController ()
 
 @end
@@ -17,14 +18,20 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
-    [[NSDate date] timestamp];
+    
+    UIButton * btn = [[UIButton alloc] createCustomButton:@"测试" fontSize:14 titleColor:[UIColor colorWithHexString:@"#ff973a"]];
+    btn.frame = CGRectMake(0, 100, 100, 100);
+    [btn addTarget:self action:@selector(doSth) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:btn];
+    
+ 
+
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+-(void)doSth{
+    STCollectionvVew * vc = [[STCollectionvVew alloc] init];
+    vc.modalPresentationStyle = UIModalPresentationFullScreen;
+    [self.navigationController pushViewController:vc animated:YES];
 }
 
 @end

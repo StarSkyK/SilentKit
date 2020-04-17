@@ -48,6 +48,7 @@
  */
 #define __KLSTATUSBARHEIGHT__  [[UIApplication sharedApplication] statusBarFrame].size.height
 
+#define __KLNAVBARHEIGHT__     (__KLSTATUSBARHEIGHT__ + 44)
 //尺寸转换
 #define __kNFont(fontSize)    [UIFont systemFontOfSize:__KNewSize(fontSize)]
 
