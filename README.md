@@ -8,7 +8,7 @@
 ## Introduce
 A small and fast kit. It's like an airplane flying in silence. You don't even know it's there.
 ### 中文
-一个快速小巧的kit，就像一架高速静默飞行的飞机，快，而且你又感觉不到～
+一个快速小巧的kit，就像一架高速静默飞行的飞机，快，而且你又感觉不到
 
 ## Example
 
@@ -24,8 +24,13 @@ SilentKit is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'SilentKit'
+pod 'SilentKit','~>1.1.0'
 ```
+
+## 更新内容
+v1.1.0 更新内容
+
+* STBaseTableView - 高效tableview 基础组件
 
 ## Author
 
