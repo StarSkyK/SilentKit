@@ -32,4 +32,10 @@
 //tool
 #import "PublicMethod.h"
 
+//controller
+#import "STBaseTableViewController.h"
+
+//view
+#import "STBaseButton.h"
+
 #endif /* SilentKit_h */

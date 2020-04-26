@@ -15,7 +15,7 @@ PODS:
   - AFNetworking/UIKit (3.2.1):
     - AFNetworking/NSURLSession
   - MJRefresh (3.4.1)
-  - SilentKit (1.0.0):
+  - SilentKit (1.1.0):
     - MJRefresh (~> 3.4.1)
 
 DEPENDENCIES:
@@ -35,7 +35,7 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
   MJRefresh: 3153c59a363159092c08b2177ec3a7d09f90bfaf
-  SilentKit: 8906941c9c79c699dd6931c9dba9680d73f7ba77
+  SilentKit: 8d17c7ab974978121b98d3e90ad1bef3b6a3f577
 
 PODFILE CHECKSUM: 3ddc0d7cf0e4a9edf66a48ada8ab2873f0c3d56f
 
