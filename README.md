@@ -26,11 +26,31 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod 'SilentKit','~>1.1.0'
 ```
-
+## 使用
+```ojbc
+//推荐在在pch文件中
+#import <SilentKit/SilentKit.h>
+```
 ## 更新内容
 v1.1.0 更新内容
 
 * STBaseTableView - 高效tableview 基础组件
+
+v1.1.1 更新内容
+
+* STBaseButton - 一体化button组件
+
+用例（example）
+
+```objc
+STBaseButton * btn = [[STBaseButton alloc] initWithFrame:CGRectMake(0, 0, 100, 100) 
+title:@"测试" 
+bgColor:UIColor.purpleColor 
+clickEvent:^{
+           	 	NSLog(@"test");
+			  }
+}];
+```
 
 ## Author
 

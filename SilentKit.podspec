@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SilentKit'
-  s.version          = '1.1.0'
+  s.version          = '1.1.1'
   s.summary          = 'A fast and silent kit'
 
 # This description is used to generate tags and improve search results.
